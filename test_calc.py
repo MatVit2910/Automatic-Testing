@@ -1,6 +1,7 @@
 import unittest
 from calc import Calc
 
+
 class TestCalc(unittest.TestCase):
 
     def setUp(self):
@@ -19,7 +20,7 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(self.calc.div(6, 2), 3.0)
 
     def test_pow(self):
-        self.assertEqual(self.calc.pow(2,2), 4)
+        self.assertEqual(self.calc.pow(2, 2), 4)
 
     def test_sqrt(self):
         self.assertEqual(self.calc.sqrt(16), 4)
